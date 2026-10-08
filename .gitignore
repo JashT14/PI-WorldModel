@@ -1,0 +1,89 @@
+# ==============================================================================
+# Physics-Informed Latent World Model (.gitignore)
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C / C++ Build Artifacts & Binaries
+*.o
+*.obj
+*.lib
+*.a
+*.dylib
+*.dll
+*.pdb
+*.ilk
+*.exp
+*.dSYM/
+*.exe
+# Whitelist pre-built standalone embedded engine
+!c_runtime/embedded_world_model.exe
+
+# Python Distribution & Packaging
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Unit Tests, Coverage & Caches
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+htmlcov/
+.hypothesis/
+.cache
+
+# Jupyter Notebook & Profiling
+.ipynb_checkpoints
+*.prof
+
+# Logging & Temporary Files
+*.log
+*.tmp
+*.temp
+
+# Generated Demonstration & Visualization Outputs
+*.mp4
+*.avi
+# Ensure documentation, demo GIF, and static assets are tracked
+!simulation_demo.gif
+!assets/
+!assets/**
+
+# IDEs & System Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
